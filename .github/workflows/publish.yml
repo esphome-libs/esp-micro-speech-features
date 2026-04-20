@@ -35,5 +35,5 @@ jobs:
         with:
           version: ${{ github.event.release.tag_name }}
           components: |
-            ESPMicroSpeechFeatures: .
+            esp-micro-speech-features: .
           namespace: esphome

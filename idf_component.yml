@@ -1,5 +1,5 @@
 ## IDF Component Manager Manifest File
-name: "ESPMicroSpeechFeatures"
+name: "esp-micro-speech-features"
 dependencies:
   idf: ">=4.4"
 description: "Generates TensorFlow micro spectrogram features from audio samples"

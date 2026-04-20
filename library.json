@@ -1,5 +1,5 @@
 {
-    "name": "ESPMicroSpeechFeatures",
+    "name": "esp-micro-speech-features",
     "version": "1.2.0",
     "description": "Generates TensorFlow micro spectrogram features from audio samples",
     "keywords": "tensorflow, spectrogram, audio",
