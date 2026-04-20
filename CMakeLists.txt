@@ -1,25 +1,7 @@
+file(GLOB SRC_FILES CONFIGURE_DEPENDS "src/*.c")
+
 idf_component_register(
-    SRCS
-        "src/agc.c"
-        "src/agc_util.c"
-        "src/fft.c"
-        "src/fft_util.c"
-        "src/filterbank.c"
-        "src/filterbank_util.c"
-        "src/fixed_point_math.c"
-        "src/frontend.c"
-        "src/frontend_util.c"
-        "src/kiss_fft.c"
-        "src/kiss_fftr.c"
-        "src/log_lut.c"
-        "src/log_scale.c"
-        "src/log_scale_util.c"
-        "src/noise_reduction.c"
-        "src/noise_reduction_util.c"
-        "src/pcan_gain_control.c"
-        "src/pcan_gain_control_util.c"
-        "src/window.c"
-        "src/window_util.c"
+    SRCS ${SRC_FILES}
     INCLUDE_DIRS "include"
     PRIV_INCLUDE_DIRS "src"
 )
