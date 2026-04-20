@@ -1,0 +1,16 @@
+## IDF Component Manager Manifest File
+name: "ESPMicroSpeechFeatures"
+dependencies:
+  idf: ">=4.4"
+description: "Generates TensorFlow micro spectrogram features from audio samples"
+license: "Apache-2.0"
+maintainers:
+  - Kevin Ahrendt <kevin.ahrendt@openhomefoundation.org>
+version: "1.2.0"
+url: https://github.com/kahrendt/ESPMicroSpeechFeatures
+repository: https://github.com/kahrendt/ESPMicroSpeechFeatures.git
+files:
+  exclude:
+    - ".claude/**"
+    - ".github/**"
+    - ".vscode/**"
