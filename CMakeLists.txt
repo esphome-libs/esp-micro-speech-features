@@ -1,4 +1,4 @@
-file(GLOB SRC_FILES CONFIGURE_DEPENDS "src/*.c")
+file(GLOB SRC_FILES "src/*.c")
 
 idf_component_register(
     SRCS ${SRC_FILES}
